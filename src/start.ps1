@@ -42,4 +42,4 @@ $Dashbord = New-UDDashboard -Title TUD-Dashbord -Pages $pageArray -NavbarLinks $
 
 Get-UDDashboard | Stop-UDDashboard
 
-Start-UDDashboard -Dashboard $Dashbord -Port 8080
+Start-UDDashboard -Dashboard $Dashbord -Port 8080 -Wait
